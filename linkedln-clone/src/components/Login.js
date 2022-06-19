@@ -43,7 +43,7 @@ const Join = styled.a`
   color: rgba(0, 0, 0, 0.6);
   margin-right: 12px;
   &:hover {
-    background-color:(0,0,0,0.08);
+    background-color:rgba(0,0,0,0.08);
     color: rgba(0, 0, 0, 0.9);
     text-decoration: none;
   }
