@@ -7,7 +7,7 @@ const Login = (props) => {
           <img src="/images/login-logo.svg" alt="" />
         </a>
         <div>
-           <Join>Join now</Join> 
+          <Join>Join now</Join>
         </div>
       </Nav>
     </Container>
@@ -35,5 +35,18 @@ const Nav = styled.nav`
     }
   }
 `;
-const Join=styled.a``;
+const Join = styled.a`
+  font-size: 16px;
+  padding: 10px 12px;
+  text-decoration: none;
+  border-radius:4px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-right: 12px;
+  &:hover {
+    background-color:(0,0,0,0.08);
+    color: rgba(0, 0, 0, 0.9);
+    text-decoration: none;
+  }
+`;
+
 export default Login;
