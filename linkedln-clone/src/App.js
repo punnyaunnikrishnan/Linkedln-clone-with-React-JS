@@ -1,7 +1,7 @@
-import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Header from "./components/Header";
+import Home from "./components/Home";
 import Login from "./components/Login";
 function App() {
   return (
@@ -11,7 +11,6 @@ function App() {
           <Route exact path="/" element={<Login />} />
           <Route exact path="/home" element={<Header />} />
           <Route exact path="/home" element={<Home />} />
-
         </Routes>
       </BrowserRouter>
     </div>
