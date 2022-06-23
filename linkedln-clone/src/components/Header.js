@@ -54,6 +54,9 @@ const Header = (props) => {
                 <span>Me</span>
                 <img src="/images/down-icon.svg" alt="" />
               </a>
+              <SignOut>
+                <a>Sign Out</a>
+              </SignOut>
             </User>
             <Work>
               <a>
@@ -216,4 +219,5 @@ const User = styled(NavList)`
 const Work = styled(User)`
   border-left: 1px solid rgba(0, 0, 0, 0.08);
 `;
+const SignOut = styled.div``;
 export default Header;
