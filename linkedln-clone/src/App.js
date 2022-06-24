@@ -9,8 +9,16 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Login />} />
-          <Route exact path="/home" element={<Header />} />
-          <Route exact path="/home" element={<Home />} />
+          <Route
+            exact
+            path="/home"
+            element={
+              <>
+                <Header />
+                <Home />
+              </>
+            }
+          />
         </Routes>
       </BrowserRouter>
     </div>
