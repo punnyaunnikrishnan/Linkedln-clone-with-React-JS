@@ -4,6 +4,6 @@ const Rightside = (props) => {
   <Container>Rightside</Container>;
 };
 const Container = styled.div`
-  grid-area: Rightside;
+  grid-area: rightside;
 `;
-export default RightSide;
+export default Rightside;
