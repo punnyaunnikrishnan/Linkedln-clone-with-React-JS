@@ -1,9 +1,9 @@
 import styled from "styled-components";
-const leftSide = (props) => {
+const Leftside = (props) => {
   return;
   <Container>Leftside</Container>;
 };
 const Container = styled.div`
   grid-area: leftside;
 `;
-export default leftSide;
+export default Leftside;
