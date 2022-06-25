@@ -1,16 +1,25 @@
 import styled from "styled-components";
 const Leftside = (props) => {
-  return;
-  <Container>
-    <ArtCard>card</ArtCard>
-  </Container>;
+  return (
+    <Container>
+      <ArtCard>
+        <UserInfo>
+          <CardBackground />
+          <a>
+            <Photo />
+            <Link>Welcome, there!</Link>
+          </a>
+        </UserInfo>
+      </ArtCard>
+    </Container>
+  );
 };
 const Container = styled.div`
   grid-area: leftside;
 `;
 
 const ArtCard = styled.div`
- text-align: center;
+  text-align: center;
   overflow: hidden;
   margin-bottom: 8px;
   background-color: #fff;
