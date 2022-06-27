@@ -13,6 +13,15 @@ const Leftside = (props) => {
             <AddPhotoText>Add a photo</AddPhotoText>
           </a>
         </UserInfo>
+        <Widget>
+          <a>
+            <div>
+              <span>Connections</span>
+              <span>Grow your network</span>
+            </div>
+            <img src="/images/widget-icon.svg" alt="" />
+          </a>
+        </Widget>
       </ArtCard>
     </Container>
   );
