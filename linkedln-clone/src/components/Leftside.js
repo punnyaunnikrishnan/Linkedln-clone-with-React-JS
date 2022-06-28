@@ -34,9 +34,16 @@ const Leftside = (props) => {
           <span>Groups</span>
         </a>
         <a>
-          <span>Events
+          <span>
+            Events
             <img src="images/plus-icon.svg" alt="" />
           </span>
+        </a>
+        <a>
+          <span>Follow Hashtags</span>
+        </a>
+        <a>
+          <span>Discover more</span>
         </a>
       </CommunityCard>
     </Container>
