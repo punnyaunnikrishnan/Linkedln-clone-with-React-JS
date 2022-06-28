@@ -29,6 +29,16 @@ const Leftside = (props) => {
           </span>
         </Item>
       </ArtCard>
+      <CommunityCard>
+        <a>
+          <span>Groups</span>
+        </a>
+        <a>
+          <span>Events
+            <img src="images/plus-icon.svg" alt="" />
+          </span>
+        </a>
+      </CommunityCard>
     </Container>
   );
 };
