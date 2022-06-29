@@ -2,7 +2,11 @@ import styled from "styled-components";
 const Rightside = (props) => {
   return (
     <Container>
-      <FollowCard>Rightside</FollowCard>
+      <FollowCard>
+        <Title>
+          <h2>Add to your feed</h2>
+        </Title>
+      </FollowCard>
     </Container>
   );
 };
