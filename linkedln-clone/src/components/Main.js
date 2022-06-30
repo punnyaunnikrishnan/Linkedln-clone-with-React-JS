@@ -17,11 +17,12 @@ const CommonCard = styled.div`
   border-radius: 5px;
   position: relative;
   border: none;
-  box-shadow: 0 0 0 1px rgb(0 0 0 /151), 0 0 0 rgb(0 0 0 /201);
+  box-shadow: 0 0 0 1px rgb(0 0 0 /15%), 0 0 0 rgb(0 0 0 /20%);
 `;
 
 const ShareBox = styled(CommonCard)`
   display: flex;
   flex-direction: column;
+  color: #958b95;
 `;
 export default Main;
