@@ -17,6 +17,15 @@ const Rightside = (props) => {
               <button>Follow</button>
             </div>
           </li>
+          <li>
+            <a>
+              <Avatar />
+            </a>
+            <div>
+              <span>#Video</span>
+              <button>Follow</button>
+            </div>
+          </li>
         </FeedList>
       </FollowCard>
     </Container>
