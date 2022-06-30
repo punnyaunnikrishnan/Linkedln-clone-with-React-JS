@@ -27,6 +27,8 @@ const Rightside = (props) => {
             </div>
           </li>
         </FeedList>
+        <Recommendation>View all recommendations</Recommendation>
+        <img src="images/right-icon.svg" alt="" />
       </FollowCard>
     </Container>
   );
